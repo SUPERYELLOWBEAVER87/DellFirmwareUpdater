@@ -9,6 +9,3 @@ The program is packaged and compiled with PyInstaller into a portable standalone
 * PySimpleGUI
 
 ![image](https://user-images.githubusercontent.com/78384615/235710530-227a360d-7711-4450-a839-a00299495744.png)
-
-## Implementation
-The general code workflow is as follows: First the program makes sure all pre-requisites are satisfied, Chrome to be installed, as well as administrator permissions in order to check the status of Bitlocker. Once the program confirms that all pre-requisites are satisfied, it proceeds by launching a chrome webdriver sending the local serial through the lookup, then downloads the BIOS firmware for the specific machine. Afterwards, it ensures that Bitlocker is disabled before proceeding with launching the BIOS firmware update executable with appropriate handles to execute silently.
